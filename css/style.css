@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    margin: 20px 0;
+}
+.card .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.card .card-header img{
+    width: 50px;
+    height: 50px;
+}
+.card .card-body{
+    text-align: center;
+}
+.card .card-footer .comment{
+    margin: 10px 0;
+}
+.card .card-footer .comment::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 1px;
+    
+
+}
+.card .card-footer .comment h5{
+    margin-bottom: 0;
+}
+.card .card-footer .comment a{
+    text-decoration: none;
+}
+.card .card-footer .comment p{
+    margin: 10px 0;
+    line-height: 1.9;
+}
